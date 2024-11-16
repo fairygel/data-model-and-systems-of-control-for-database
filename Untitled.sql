@@ -36,8 +36,7 @@ CREATE TABLE "audiences" (
 CREATE TABLE "staff" (
   "id" integer PRIMARY KEY,
   "phone" varchar,
-  "email" varchar,
-  "position_id" integer
+  "email" varchar
 );
 
 CREATE TABLE "staff_info" (
