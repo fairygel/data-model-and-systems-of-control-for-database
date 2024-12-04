@@ -4,7 +4,7 @@ CREATE TABLE "hardwares" (
   "date_of_last_service" timestamp,
   "state_id" integer,
   "audience_id" integer,
-  "inventory_number" varchar[16]
+  "inventory_number" varchar(16)
 );
 
 CREATE TABLE "hardware_types" (
